@@ -8,26 +8,26 @@ export function Footer() {
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                 <span className="text-accent-foreground font-bold">E</span>
               </div>
-              <span className="font-semibold">Elevate VA Academy</span>
+              <span className="font-semibold">Электромонтаж Екб</span>
             </div>
-            <p className="text-sm text-background/70">Персональное обучение 1-на-1 для будущих виртуальных ассистентов.</p>
+            <p className="text-sm text-background/70">Профессиональные электромонтажные работы в Екатеринбурге.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
                 <a href="#about" className="hover:text-background transition">
-                  О нас
+                  О компании
                 </a>
               </li>
               <li>
                 <a href="#benefits" className="hover:text-background transition">
-                  Преимущества
+                  Услуги
                 </a>
               </li>
               <li>
                 <a href="#booking" className="hover:text-background transition">
-                  Записаться
+                  Контакты
                 </a>
               </li>
               <li>
@@ -89,7 +89,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Elevate VA Academy. Все права защищены.</p>
+          <p>&copy; 2025 Электромонтаж Екб. Все права защищены.</p>
         </div>
       </div>
     </footer>

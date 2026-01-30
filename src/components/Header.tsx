@@ -13,24 +13,24 @@ export function Header() {
           <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
             <span className="text-accent-foreground font-bold text-lg">E</span>
           </div>
-          <span className="font-semibold text-foreground">Elevate VA Academy</span>
+          <span className="font-semibold text-foreground">Электромонтаж Екатеринбург</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition">
-            О нас
+            О компании
           </a>
           <a href="#benefits" className="text-sm text-muted-foreground hover:text-foreground transition">
-            Преимущества
+            Услуги
           </a>
           <a href="#booking" className="text-sm text-muted-foreground hover:text-foreground transition">
-            Записаться
+            Контакты
           </a>
           <a href="#testimonials" className="text-sm text-muted-foreground hover:text-foreground transition">
             Отзывы
           </a>
         </nav>
         <Button onClick={handleGetStarted} className="bg-accent hover:bg-accent/90 text-accent-foreground">
-          Начать
+          Заявка
         </Button>
       </div>
     </header>
